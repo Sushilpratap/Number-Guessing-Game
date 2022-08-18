@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    background-color: #491579;
+}
+:root{
+    --dark:#350363;
+    --background:#ffe9db;
+}
+#welcomeScreen h2{
+    margin-top: 2px;
+}
+main{
+    width:40rem;
+    text-align:center;
+    border:solid var(--dark);
+    background:var(--background);
+    border-width:.6rem;
+    border-radius:1rem;
+    color:#1f2933;
+}
+
+.eventSection p{ 
+    margin:1.2rem;
+    font-size:2rem;
+}
+.image{
+    width:98%;
+    max-height:12rem;
+    margin:3px;
+
+}
+.button-wrapper{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom:1.2rem;
+margin-top:1rem;
+}
+button{
+    width:22rem;
+    border:3px solid black;
+    margin:1.2rem;
+    padding: 1rem;
+     background-color: purple; 
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+    cursor: pointer;
+    box-sizing:border-box;
+    border-radius:10px;
+    color:#ffffff;
+    text-transform:capitalize;
+    transition:all 0.5s;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 3px 8px;
+}
+.info p{
+    font-size:2rem;
+    margin:0.5rem;
+}
+button:hover{
+    box-shadow:rgba(80,63,205,0.2) 0 1px 30px;
+    transition-duration: 0.1s;
+}
+button:last-child{
+    background:var(--dark);
+}
+/* our Game area  */
+#gameArea{
+    /* height:90px;
+    width:60px; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:cetner;
+}
+#newGameButton{
+    margin:2px 0;
+}
+input{
+    border:0.1rem solid lightgray;
+    background:transparent;
+    margin:2rem 0;
+    padding:1rem 0;
+    width:25rem;
+    height:5rem;
+    font-size:1.5rem;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#textOutput{
+    margin-top:1rem;
+}
+.stats{
+    text-align:left;
+    margin-bottom:1.5rem;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:1rem;
+
+}
+.info span{
+    font-size:2rem;
+    color:#ff0511;
+}
